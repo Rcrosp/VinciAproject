@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54F848211D533DE7005CBE56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F848201D533DE7005CBE56 /* AppDelegate.swift */; };
+		54F848231D533DE7005CBE56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F848221D533DE7005CBE56 /* ViewController.swift */; };
+		54F848261D533DE7005CBE56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F848241D533DE7005CBE56 /* Main.storyboard */; };
+		54F848281D533DE7005CBE56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F848271D533DE7005CBE56 /* Assets.xcassets */; };
+		54F8482B1D533DE7005CBE56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F848291D533DE7005CBE56 /* LaunchScreen.storyboard */; };
+		54F848361D533DE7005CBE56 /* VinciAplanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F848351D533DE7005CBE56 /* VinciAplanTests.swift */; };
+		54F848411D533DE7005CBE56 /* VinciAplanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F848401D533DE7005CBE56 /* VinciAplanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54F848321D533DE7005CBE56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54F848151D533DE7005CBE56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F8481C1D533DE7005CBE56;
+			remoteInfo = VinciAplan;
+		};
+		54F8483D1D533DE7005CBE56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54F848151D533DE7005CBE56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F8481C1D533DE7005CBE56;
+			remoteInfo = VinciAplan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54F8481D1D533DE7005CBE56 /* VinciAplan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinciAplan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F848201D533DE7005CBE56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54F848221D533DE7005CBE56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54F848251D533DE7005CBE56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54F848271D533DE7005CBE56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54F8482A1D533DE7005CBE56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54F8482C1D533DE7005CBE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F848311D533DE7005CBE56 /* VinciAplanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinciAplanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F848351D533DE7005CBE56 /* VinciAplanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinciAplanTests.swift; sourceTree = "<group>"; };
+		54F848371D533DE7005CBE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F8483C1D533DE7005CBE56 /* VinciAplanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinciAplanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F848401D533DE7005CBE56 /* VinciAplanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinciAplanUITests.swift; sourceTree = "<group>"; };
+		54F848421D533DE7005CBE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54F8481A1D533DE7005CBE56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F8482E1D533DE7005CBE56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F848391D533DE7005CBE56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54F848141D533DE7005CBE56 = {
+			isa = PBXGroup;
+			children = (
+				54F8481F1D533DE7005CBE56 /* VinciAplan */,
+				54F848341D533DE7005CBE56 /* VinciAplanTests */,
+				54F8483F1D533DE7005CBE56 /* VinciAplanUITests */,
+				54F8481E1D533DE7005CBE56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54F8481E1D533DE7005CBE56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54F8481D1D533DE7005CBE56 /* VinciAplan.app */,
+				54F848311D533DE7005CBE56 /* VinciAplanTests.xctest */,
+				54F8483C1D533DE7005CBE56 /* VinciAplanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54F8481F1D533DE7005CBE56 /* VinciAplan */ = {
+			isa = PBXGroup;
+			children = (
+				54F848201D533DE7005CBE56 /* AppDelegate.swift */,
+				54F848221D533DE7005CBE56 /* ViewController.swift */,
+				54F848241D533DE7005CBE56 /* Main.storyboard */,
+				54F848271D533DE7005CBE56 /* Assets.xcassets */,
+				54F848291D533DE7005CBE56 /* LaunchScreen.storyboard */,
+				54F8482C1D533DE7005CBE56 /* Info.plist */,
+			);
+			path = VinciAplan;
+			sourceTree = "<group>";
+		};
+		54F848341D533DE7005CBE56 /* VinciAplanTests */ = {
+			isa = PBXGroup;
+			children = (
+				54F848351D533DE7005CBE56 /* VinciAplanTests.swift */,
+				54F848371D533DE7005CBE56 /* Info.plist */,
+			);
+			path = VinciAplanTests;
+			sourceTree = "<group>";
+		};
+		54F8483F1D533DE7005CBE56 /* VinciAplanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54F848401D533DE7005CBE56 /* VinciAplanUITests.swift */,
+				54F848421D533DE7005CBE56 /* Info.plist */,
+			);
+			path = VinciAplanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54F8481C1D533DE7005CBE56 /* VinciAplan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F848451D533DE7005CBE56 /* Build configuration list for PBXNativeTarget "VinciAplan" */;
+			buildPhases = (
+				54F848191D533DE7005CBE56 /* Sources */,
+				54F8481A1D533DE7005CBE56 /* Frameworks */,
+				54F8481B1D533DE7005CBE56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VinciAplan;
+			productName = VinciAplan;
+			productReference = 54F8481D1D533DE7005CBE56 /* VinciAplan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54F848301D533DE7005CBE56 /* VinciAplanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F848481D533DE7005CBE56 /* Build configuration list for PBXNativeTarget "VinciAplanTests" */;
+			buildPhases = (
+				54F8482D1D533DE7005CBE56 /* Sources */,
+				54F8482E1D533DE7005CBE56 /* Frameworks */,
+				54F8482F1D533DE7005CBE56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F848331D533DE7005CBE56 /* PBXTargetDependency */,
+			);
+			name = VinciAplanTests;
+			productName = VinciAplanTests;
+			productReference = 54F848311D533DE7005CBE56 /* VinciAplanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54F8483B1D533DE7005CBE56 /* VinciAplanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F8484B1D533DE7005CBE56 /* Build configuration list for PBXNativeTarget "VinciAplanUITests" */;
+			buildPhases = (
+				54F848381D533DE7005CBE56 /* Sources */,
+				54F848391D533DE7005CBE56 /* Frameworks */,
+				54F8483A1D533DE7005CBE56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F8483E1D533DE7005CBE56 /* PBXTargetDependency */,
+			);
+			name = VinciAplanUITests;
+			productName = VinciAplanUITests;
+			productReference = 54F8483C1D533DE7005CBE56 /* VinciAplanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54F848151D533DE7005CBE56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Aplan;
+				TargetAttributes = {
+					54F8481C1D533DE7005CBE56 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					54F848301D533DE7005CBE56 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 54F8481C1D533DE7005CBE56;
+					};
+					54F8483B1D533DE7005CBE56 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 54F8481C1D533DE7005CBE56;
+					};
+				};
+			};
+			buildConfigurationList = 54F848181D533DE7005CBE56 /* Build configuration list for PBXProject "VinciAplan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54F848141D533DE7005CBE56;
+			productRefGroup = 54F8481E1D533DE7005CBE56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54F8481C1D533DE7005CBE56 /* VinciAplan */,
+				54F848301D533DE7005CBE56 /* VinciAplanTests */,
+				54F8483B1D533DE7005CBE56 /* VinciAplanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54F8481B1D533DE7005CBE56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F8482B1D533DE7005CBE56 /* LaunchScreen.storyboard in Resources */,
+				54F848281D533DE7005CBE56 /* Assets.xcassets in Resources */,
+				54F848261D533DE7005CBE56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F8482F1D533DE7005CBE56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F8483A1D533DE7005CBE56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54F848191D533DE7005CBE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F848231D533DE7005CBE56 /* ViewController.swift in Sources */,
+				54F848211D533DE7005CBE56 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F8482D1D533DE7005CBE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F848361D533DE7005CBE56 /* VinciAplanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F848381D533DE7005CBE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F848411D533DE7005CBE56 /* VinciAplanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54F848331D533DE7005CBE56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54F8481C1D533DE7005CBE56 /* VinciAplan */;
+			targetProxy = 54F848321D533DE7005CBE56 /* PBXContainerItemProxy */;
+		};
+		54F8483E1D533DE7005CBE56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54F8481C1D533DE7005CBE56 /* VinciAplan */;
+			targetProxy = 54F8483D1D533DE7005CBE56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54F848241D533DE7005CBE56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F848251D533DE7005CBE56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54F848291D533DE7005CBE56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F8482A1D533DE7005CBE56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54F848431D533DE7005CBE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54F848441D533DE7005CBE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54F848461D533DE7005CBE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VinciAplan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vinci.VinciAplan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54F848471D533DE7005CBE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VinciAplan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vinci.VinciAplan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54F848491D533DE7005CBE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VinciAplanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vinci.VinciAplanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VinciAplan.app/VinciAplan";
+			};
+			name = Debug;
+		};
+		54F8484A1D533DE7005CBE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VinciAplanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vinci.VinciAplanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VinciAplan.app/VinciAplan";
+			};
+			name = Release;
+		};
+		54F8484C1D533DE7005CBE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VinciAplanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vinci.VinciAplanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VinciAplan;
+			};
+			name = Debug;
+		};
+		54F8484D1D533DE7005CBE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VinciAplanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vinci.VinciAplanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VinciAplan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54F848181D533DE7005CBE56 /* Build configuration list for PBXProject "VinciAplan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F848431D533DE7005CBE56 /* Debug */,
+				54F848441D533DE7005CBE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F848451D533DE7005CBE56 /* Build configuration list for PBXNativeTarget "VinciAplan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F848461D533DE7005CBE56 /* Debug */,
+				54F848471D533DE7005CBE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54F848481D533DE7005CBE56 /* Build configuration list for PBXNativeTarget "VinciAplanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F848491D533DE7005CBE56 /* Debug */,
+				54F8484A1D533DE7005CBE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54F8484B1D533DE7005CBE56 /* Build configuration list for PBXNativeTarget "VinciAplanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F8484C1D533DE7005CBE56 /* Debug */,
+				54F8484D1D533DE7005CBE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54F848151D533DE7005CBE56 /* Project object */;
+}
