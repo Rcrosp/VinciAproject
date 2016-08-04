@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wQA-bT-v9o">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--个人-->
+        <scene sceneID="ZXz-ca-rGH">
+            <objects>
+                <tableViewController id="tC7-S9-Ds7" customClass="PersonViewController" customModule="VinciAplan" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="2f1-Pd-Tes">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="xD6-Ch-7PW">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xD6-Ch-7PW" id="Vxs-5V-Pu4">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="tC7-S9-Ds7" id="qjW-QB-70l"/>
+                            <outlet property="delegate" destination="tC7-S9-Ds7" id="VcB-Ds-ph1"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="个人" id="C27-2b-OSq"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lAl-gP-cda" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1198" y="1178"/>
+        </scene>
+        <!--个人-->
+        <scene sceneID="nd8-H9-INI">
+            <objects>
+                <navigationController id="wQA-bT-v9o" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="个人" image="Icon_Setting_Normal" selectedImage="Icon_Setting_Selected" id="taa-4r-QSn"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bto-cO-W5r">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="tC7-S9-Ds7" kind="relationship" relationship="rootViewController" id="Fiq-Hj-TY2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8fk-Ml-ScD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="378" y="1178"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon_Setting_Normal" width="32" height="32"/>
+        <image name="Icon_Setting_Selected" width="32" height="32"/>
+    </resources>
+</document>
